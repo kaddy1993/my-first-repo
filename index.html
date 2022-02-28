@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWRC SURVEY FORM</title>
+    <link rel="stylesheet" href="./twrc.css">
+</head>
+<body>
+    <div class="first-section">
+        <img src="./image/logo.jpg" alt="logo">
+        <div class="para-heading">
+            <h1 id="title">True Worship Revival Church Survey Form</h1>
+            <p id="description">Kindly give us your feedback</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <form id="survey-form">
+        <label for="name">
+            Name
+        </label>
+        <br>
+        <input type="text" id="name-label" name="Name" placeholder="enter your name here">
+        <br>
+        <br>
+        <label for="email">
+            Email
+        </label>
+        <br>
+        <input type="email" id="email-label" name="Email" placeholder="enter your email here">
+        <br>
+        <br>
+        <label for="number">
+            Number
+        </labe><br>
+        <input type="number" id="number-label" name="quantity" min="15" max="30" placeholder="enter your number here">
+        <p>How long have you been coming to church?</p>
+        <input type="radio" id="month1" name="month" value="6">
+        <label for="age1">0 - 6 months</label><br><br>
+        <input type="radio" id="month2" name="month" value="12">
+        <label for="age2">7 - 12 months</label><br><br>  
+        <input type="radio" id="year1" name="year" value="24">
+        <label for="age3">Since the last two years</label><br><br>
+        <input type="radio" id="year2" name="year" value="48">
+        <label for="age1">More than two years</label><br><br>
+        <p>Wha aspect of the Church do you actively participate in ?</p>
+        <input type="checkbox" id="activity" name="activity">
+            <label for="choir"> Choir</label><br><br>
+            <input type="checkbox" id="activity1" name="activity">
+            <label for="Mangement">Mangement</label><br><br>
+            <input type="checkbox" id="activity2" name="activity">
+
+            <label for="Finance">Finance</label><br><br>
+            <input type="checkbox" id="activity3" name="activity">
+
+            <label for="Charity"> Charity</label><br><br>
+            <input type="checkbox" id="activity4" name="activity">
+
+            <label for="Teaching"> Teaching</label><br><br>
+            <input type="checkbox" id="activity5" name="activity">
+            <label for="Usher"> Usher</label><br><br>
+            <input type="checkbox" id="activity6" name="activity">
+            <label for="Other"> Other</label><br><br>
+            
+            <p>Is there any other feedback you would like to provide?</p>
+            <textarea placeholder="enter your feedback here"></textarea>
+    </br>
+            
+            <button type="submit" form="survey-form" value="submit">Submit</button>
+
+    </form>
+</body>
+</html>
